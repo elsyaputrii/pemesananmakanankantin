@@ -34,4 +34,8 @@ Route::get('login', function () {
     return view('pages.login');
 });
 
+Route::get('koki', function () {
+    return view('pages.koki');
+});
+
 
