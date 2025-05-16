@@ -46,3 +46,8 @@ Route::get('lupa_password', function () {
     return view('pages.lupa_password');
 });
 
+Route::get('melihat', function () {
+    return view('pages.melihat');
+});
+
+
