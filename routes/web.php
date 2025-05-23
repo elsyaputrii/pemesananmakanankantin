@@ -50,11 +50,11 @@ Route::get('melihat', function () {
     return view('pages.melihat');
 });
 
-Route::get('melihat', function () {
+Route::get('pendapatan', function () {
     return view('pages.pendapatan');
 });
 
-Route::get('melihat', function () {
+Route::get('qriss', function () {
     return view('pages.qriss');
 });
 
@@ -62,7 +62,7 @@ Route::get('register', function () {
     return view('pages.register');
 });
 
-Route::get('melihat', function () {
+Route::get('cetak_nomor', function () {
     return view('pages.cetak_nomor');
 });
 
