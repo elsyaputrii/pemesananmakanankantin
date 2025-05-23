@@ -25,7 +25,7 @@
     <div class="flex min-h-screen flex-col md:flex-row">
         {{-- Menu Navigasi --}}
         <aside class="w-full md:w-64 bg-white shadow-md h-screen">
-            @include('components.sidebar_pelanggan')
+            @include('components.sidebar')
         </aside>
 
         {{-- Konten Utama --}}

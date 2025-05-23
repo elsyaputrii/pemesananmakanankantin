@@ -1,8 +1,9 @@
-@extends('layouts.app')
+@extends('layouts.mpp')
 
 @section('title', 'Tambah Menu')
 
 @section('content')
+
 <!-- Main content -->
   <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
     <h2 class="text-xl font-normal mb-4 md:mb-0">
