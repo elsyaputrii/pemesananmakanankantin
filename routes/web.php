@@ -34,19 +34,4 @@ Route::get('login', function () {
     return view('pages.login');
 });
 
-Route::get('koki', function () {
-    return view('pages.koki');
-});
-
-Route::get('tambah_menu_pelanggan', function () {
-    return view('pages.tambah_menu');
-});
-
-Route::get('lupa_password', function () {
-    return view('pages.lupa_password');
-});
-
-Route::get('melihat', function () {
-    return view('pages.melihat');
-});
 
